@@ -52,6 +52,14 @@ class HomeWidget extends StatelessWidget {
                 textStyle: const TextStyle(fontSize: 16),
               ),
             ),
+            const SizedBox(height: 20),
+            ElevatedButton(
+              onPressed: () => Navigator.of(context).pushNamed('/flip_card'),
+              child: const Text('Flip card'),
+              style: ElevatedButton.styleFrom(
+                textStyle: const TextStyle(fontSize: 16),
+              ),
+            ),
           ],
         ),
       ),
