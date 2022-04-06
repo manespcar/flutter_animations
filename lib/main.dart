@@ -3,6 +3,7 @@ import 'package:flutter/services.dart';
 import 'package:flutter_animations/pages/container_animation_widget.dart';
 import 'package:flutter_animations/pages/cross_fade_animation_widget.dart';
 import 'package:flutter_animations/pages/flip_card_animation_widget.dart';
+import 'package:flutter_animations/pages/hero_animation_widget.dart';
 import 'package:flutter_animations/pages/home_widget.dart';
 import 'package:flutter_animations/pages/opacity_animation_widget.dart';
 import 'package:flutter_animations/pages/positioned_animation_widget.dart';
@@ -36,6 +37,7 @@ class MyApp extends StatelessWidget {
         '/switcher': (context) => const SwitcherAnimationWidget(),
         '/positioned': (context) => const PositionedAnimationWidget(),
         '/flip_card': (context) => const FlipCardAnimationWidget(),
+        '/hero': (context) => const HeroAnimationWidget(),
       },
     );
   }

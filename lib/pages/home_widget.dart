@@ -60,6 +60,14 @@ class HomeWidget extends StatelessWidget {
                 textStyle: const TextStyle(fontSize: 16),
               ),
             ),
+            const SizedBox(height: 20),
+            ElevatedButton(
+              onPressed: () => Navigator.of(context).pushNamed('/hero'),
+              child: const Text('Hero'),
+              style: ElevatedButton.styleFrom(
+                textStyle: const TextStyle(fontSize: 16),
+              ),
+            ),
           ],
         ),
       ),
