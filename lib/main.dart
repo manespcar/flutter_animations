@@ -7,7 +7,10 @@ import 'package:flutter_animations/pages/hero_animation_widget.dart';
 import 'package:flutter_animations/pages/home_widget.dart';
 import 'package:flutter_animations/pages/opacity_animation_widget.dart';
 import 'package:flutter_animations/pages/positioned_animation_widget.dart';
+import 'package:flutter_animations/pages/rotation_animation_widget.dart';
+import 'package:flutter_animations/pages/scale_animation_widget.dart';
 import 'package:flutter_animations/pages/switcher_animation_widget.dart';
+import 'package:flutter_animations/pages/translation_animation_widget.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
@@ -38,6 +41,9 @@ class MyApp extends StatelessWidget {
         '/positioned': (context) => const PositionedAnimationWidget(),
         '/flip_card': (context) => const FlipCardAnimationWidget(),
         '/hero': (context) => const HeroAnimationWidget(),
+        '/rotation': (context) => const RotationAnimationWidget(),
+        '/translation': (context) => const TranslationAnimationWidget(),
+        '/scale': (context) => const ScaleAnimationWidget(),
       },
     );
   }

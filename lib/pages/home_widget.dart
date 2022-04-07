@@ -68,6 +68,30 @@ class HomeWidget extends StatelessWidget {
                 textStyle: const TextStyle(fontSize: 16),
               ),
             ),
+            const SizedBox(height: 20),
+            ElevatedButton(
+              onPressed: () => Navigator.of(context).pushNamed('/rotation'),
+              child: const Text('Rotation'),
+              style: ElevatedButton.styleFrom(
+                textStyle: const TextStyle(fontSize: 16),
+              ),
+            ),
+            const SizedBox(height: 20),
+            ElevatedButton(
+              onPressed: () => Navigator.of(context).pushNamed('/translation'),
+              child: const Text('Translation'),
+              style: ElevatedButton.styleFrom(
+                textStyle: const TextStyle(fontSize: 16),
+              ),
+            ),
+            const SizedBox(height: 20),
+            ElevatedButton(
+              onPressed: () => Navigator.of(context).pushNamed('/scale'),
+              child: const Text('Scale'),
+              style: ElevatedButton.styleFrom(
+                textStyle: const TextStyle(fontSize: 16),
+              ),
+            ),
           ],
         ),
       ),
